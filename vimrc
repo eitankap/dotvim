@@ -1,4 +1,3 @@
-
 set number
 "searching...
 set hlsearch
@@ -99,6 +98,9 @@ Plug 'scrooloose/nerdtree'
 
 " Ctrlp
 Plug 'kien/ctrlp.vim'
+
+" Fugitive -- for git.
+Plug 'tpope/vim-fugitive'
 
 " All of your Plugins must be added before the following line
 call plug#end()
