@@ -74,3 +74,24 @@ filetype indent on
 syntax enable
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 
+
+
+let mapleader = ","
+
+
+" automatically downloads vim-plug to your machine if not found.
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+" Define plugins to install
+call plug#begin('~/.vim/plugged')
+
+" All of your Plugins must be added before the following line
+call plug#end()
+
+
+
+
