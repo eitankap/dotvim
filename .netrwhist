@@ -1,6 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/home/eitan/os-4118/hw5-12-Hedgehog/user'
 let g:netrw_dirhist_2='/home/eitan/os-4118/hw5-12-Hedgehog/user/module/fridge'
 let g:netrw_dirhist_3='/home/eitan/os-4118/hw5-12-Hedgehog/user/test/Hedgehog-p4-test'
 let g:netrw_dirhist_4='/home/eitan/.vim/ftplugin'
+let g:netrw_dirhist_5='/home/eitan/.vim/syntax/scheme'
+let g:netrw_dirhist_6='/home/eitan/.vim/ftdetect'
